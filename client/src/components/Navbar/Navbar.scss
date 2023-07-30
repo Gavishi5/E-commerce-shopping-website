@@ -1,0 +1,58 @@
+.navbar{
+    height: 80px;
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        // align like column or row with auto width and auto height to all three div
+        justify-content: space-between;
+        // It creates even spacing between each pair of items between the first and last item.5 days ago
+        align-items: center;
+        .links{
+            text-decoration: none;
+        }
+        .item{
+            display: flex;
+            align-items: center;
+        }
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .center{
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .icons{
+            display: flex;
+            gap: 15px;
+            color: #777;
+            cursor: pointer;
+            
+        }
+        .cartIcon{
+            position: relative;
+            span{
+                font-size: 12px;
+                width:20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #2879fe;
+                color: white;
+                position: absolute;
+                right: -10px;
+                top:-10px;
+                display: flex;
+                align-items: center;
+                // itgonna center vertically
+                justify-content: center;
+                // it gonna center horizontally
+            }
+        }
+    }
+}
